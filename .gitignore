@@ -1,0 +1,70 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+*.tsv
+*.h5
+*.db
+*.sqlite
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Logs and reports
+logs/
+*.log
+*.out
+
+# Models
+models/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Config and secrets
+*.yaml
+*.yml
+*.json
+config.json
+secrets/
+*.env
+
+# Output and temp
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# DVC or MLflow
+.dvc/
+mlruns/
